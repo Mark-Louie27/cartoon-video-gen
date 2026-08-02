@@ -10,7 +10,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body style={{ margin: 0, fontFamily: "Arial, sans-serif" }}>
+      <body
+        style={{
+          margin: 0,
+          fontFamily:
+            "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif",
+          color: "#111827",
+          background: "#F5F7FB",
+        }}
+      >
         {children}
       </body>
     </html>
